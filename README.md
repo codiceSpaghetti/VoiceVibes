@@ -1,5 +1,5 @@
 # VoiceVibes
-VoiceVibes presents a solution for speech emotion recognition, featuring six innovative AI model architectures designed to accurately identify and categorize emotional expressions conveyed through speech.
+VoiceVibes presents a solution for **speech emotion recognition**, featuring six **innovative AI model architectures** designed to accurately identify and categorize emotional expressions conveyed through speech.
 
 <p align="center">
   <img src="imgs/wave.jpg" alt="image">
@@ -10,8 +10,8 @@ VoiceVibes presents a solution for speech emotion recognition, featuring six inn
 
 Emotion plays an important role in human interactions. It helps us understand the feelings of others and conveys information about the mental state of an individual.  
 Expressing and/or understanding feelings can be difficult for some people.  
-What if we could understand the emotion of people only by listening to the tone of their voice?  
-What if we could improve medical treatments/psychological follow ups with a simple emotion recognition based on the voice?   
+**What if we could understand the emotion of people only by listening to the tone of their voice?  
+What if we could improve medical treatments/psychological follow ups with a simple emotion recognition based on the voice?**   
 
 By accurately recognizing and categorizing emotional expressions, emotion speech recognition technology can be used to **improve communication, build better relationships, and provide more personalized and empathetic experiences**. For example, in the field of mental health, it can be used to monitor and track changes in emotional states, providing early warnings of potential issues and helping healthcare professionals provide more effective treatment. 
 
@@ -22,7 +22,7 @@ In the entertainment industry, emotion speech recognition can be used to create 
 ## Task definition
 
 The training and testing sets consist of audio files that were merged from 4 distinct data
-sources (TESS<sup>1</sup> , SAVEE<sup>2</sup> , RAVDESS<sup>3</sup> , CREMA<sup>4</sup> ). The training set contains 10111 labeled audio files that can belong to 6 possible classes:
+sources (TESS<sup>1</sup> , SAVEE<sup>2</sup> , RAVDESS<sup>3</sup> , CREMA<sup>4</sup> ). The training set contains 10111 labeled audio files that can belong to **6 possible classes**:
 * Angry.
 * Neutral.
 * Disgust.
@@ -32,23 +32,23 @@ sources (TESS<sup>1</sup> , SAVEE<sup>2</sup> , RAVDESS<sup>3</sup> , CREMA<sup>
 * Sadness.
 
 
-[1] TESS: Toronto Emotional Speech Set. 2 female speakers (young and old), 2800 audio files, random
+[1] **TESS**: Toronto Emotional Speech Set. 2 female speakers (young and old), 2800 audio files, random
 words were spoken in 7 different emotions.
 
-[2] SAVEE: Surrey Audio-Visual Expressed Emotion. 4 male speakers, 480 audio files, same sentences
+[2] **SAVEE**: Surrey Audio-Visual Expressed Emotion. 4 male speakers, 480 audio files, same sentences
 were spoken in 7 different emotions.
 
-[3] RAVDESS: 2452 audio files, with 12 male speakers and 12 Female speakers, the lexical features
+[3] **RAVDESS**: 2452 audio files, with 12 male speakers and 12 Female speakers, the lexical features
 (vocabulary) of the utterances are kept constant by speaking only 2 statements of equal lengths in 8
 different emotions by all speakers.
 
-[4] CREMA: Crowd-Sourced Emotional Multimodal Actors Dataset. 7442 audio files, 91 different speakers
+[4] **CREMA**: Crowd-Sourced Emotional Multimodal Actors Dataset. 7442 audio files, 91 different speakers
 (48 male and 43 female between the ages of 20 and 74) of different races and ethnicities, different
 statements are spoken in 6 different emotions and 4 emotional levels (low, mid, high and unspecified). 
 
 
 ## My solution
-I propose six different architectures that exploits combination of Convolutional Neural Network (CNN), Long Short Term Memory (LSTM) and the Self-attention mechanism.
+I propose six different architectures that exploits combination of **Convolutional Neural Network (CNN), Long Short Term Memory (LSTM) and the Self-attention** mechanism.
 ### Ensemble with Genetic Algorithm
 In particular, I present three families of models, i.e. CNN-LSTM, LSTM-CNN and CNN-Transfomer, which are finally combined in an **ensemble**
 that consider an average voting to get the final predictions, where the best combination of weights is found with a **Genetic Algorithm (GA).**
