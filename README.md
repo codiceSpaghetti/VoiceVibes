@@ -22,7 +22,7 @@ In the entertainment industry, emotion speech recognition can be used to create 
 ## Task definition
 
 The training and testing sets consist of audio files that were merged from 4 distinct data
-sources ([TESS][1] , [SAVEE][2] , [RAVDESS][3] , [CREMA][4] ). The training set contains 10111 labeled audio files that can belong to 6 possible classes:
+sources (TESS<sup>1</sup> , SAVEE<sup>2</sup> , RAVDESS<sup>3</sup> , CREMA<sup>4</sup> ). The training set contains 10111 labeled audio files that can belong to 6 possible classes:
 * Angry.
 * Neutral.
 * Disgust.
@@ -32,14 +32,17 @@ sources ([TESS][1] , [SAVEE][2] , [RAVDESS][3] , [CREMA][4] ). The training set 
 * Sadness.
 
 
-[1]: TESS: Toronto Emotional Speech Set. 2 female speakers (young and old), 2800 audio files, random
+[1] TESS: Toronto Emotional Speech Set. 2 female speakers (young and old), 2800 audio files, random
 words were spoken in 7 different emotions.
-[2]: SAVEE: Surrey Audio-Visual Expressed Emotion. 4 male speakers, 480 audio files, same sentences
-were spoken in 7 different emotions
-[3]: RAVDESS: 2452 audio files, with 12 male speakers and 12 Female speakers, the lexical features
+
+[2] SAVEE: Surrey Audio-Visual Expressed Emotion. 4 male speakers, 480 audio files, same sentences
+were spoken in 7 different emotions.
+
+[3] RAVDESS: 2452 audio files, with 12 male speakers and 12 Female speakers, the lexical features
 (vocabulary) of the utterances are kept constant by speaking only 2 statements of equal lengths in 8
 different emotions by all speakers.
-[4]: CREMA: Crowd-Sourced Emotional Multimodal Actors Dataset. 7442 audio files, 91 different speakers
+
+[4] CREMA: Crowd-Sourced Emotional Multimodal Actors Dataset. 7442 audio files, 91 different speakers
 (48 male and 43 female between the ages of 20 and 74) of different races and ethnicities, different
 statements are spoken in 6 different emotions and 4 emotional levels (low, mid, high and unspecified). 
 
